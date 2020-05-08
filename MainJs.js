@@ -108,7 +108,7 @@ document.querySelector('#book-list').addEventListener('click',(e)=>{
     //remove book from store
     Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
     //show success message
-    UI.showAlert('Borrado con exito','success')
+    UI.showAlert('Libro Eliminado con Exito','success')
 });
 
 
